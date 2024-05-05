@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "text-decapitalization"
+version = "0.1.0"
+description = ""
+authors = ["BootyOne <BootyOne@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "text_decapitalization"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "^1.26.4"
+scipy = "^1.13.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
